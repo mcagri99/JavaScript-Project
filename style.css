@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.buttons {
+    position: absolute;
+    top:5%;
+    left: 50%;
+    transform: translate(-50%,-5%);
+    
+} 
+
+.button {
+      font-size: 25px;
+      border-radius: 8px;
+      margin: 25px;
+      border: 1px solid rgb(173, 173, 173);
+      padding: 10px;
+      
+
+}
+
+.on {
+    background-color: rgb(0, 160, 0);
+    color: #fff;
+}
+.on:hover {
+    background-color: rgb(87, 253, 87);
+}
+
+.off {
+    background-color: red;
+    color: #fff;
+}
+.off:hover {
+    background-color: rgb(255, 144, 144);
+}
+
+.image{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
